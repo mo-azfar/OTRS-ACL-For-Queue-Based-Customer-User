@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Application">
+    <Setting Name="Ticket::Acl::Module###10-Ticket::Acl::Module" Required="0" Valid="1">
+        <Description Translatable="1">ACL module that show ticket queue selection based on selected queue (customer user dynamic field) on customer user profile</Description>
+        <Navigation>Core::Ticket::ACL</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::System::Ticket::Acl::QueueBasedCustomerUser</Item>
+				<Item Key="SelectedQueueDynamicFieldName">PredefinedQueue</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
