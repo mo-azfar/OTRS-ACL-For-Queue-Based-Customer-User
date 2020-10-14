@@ -8,9 +8,8 @@
 	- Name: PredefineQueue
 	- Field type: Dropdown / Multiselect / DB Table (https://opar.perl-services.de/dist/DynamicFieldOTRSDBTable-6.0.6)
 	- Object type: Customer User
-	
-	Key = Queue name 
-	Value = Queue name
+	- Key: Queue name 
+	- Value: Queue name
 
 
 
